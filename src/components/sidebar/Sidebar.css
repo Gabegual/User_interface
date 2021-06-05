@@ -1,5 +1,5 @@
 #sidebar {
-    background: #020509;
+    background: #343A40;
     grid-area: sidebar;
     overflow-y: auto;
     padding: 20px;
@@ -37,7 +37,7 @@
   }
   
   .sidebar__menu > h2 {
-    color: #3ea175;
+    color: #5086A8;
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -53,12 +53,12 @@
   }
   
   .active_menu_link {
-    background: rgba(62, 161, 117, 0.3);
-    color: #3ea175;
+    background: rgba(50, 120, 133, 0.3);
+    color: #5086A8;
   }
   
   .active_menu_link a {
-    color: #3ea175 !important;
+    color: #0b96ec !important;
   }
   
   .sidebar__link > a {
