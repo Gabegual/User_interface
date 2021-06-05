@@ -60,7 +60,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
           <i className="fa fa-files-o"></i>
           <a href="#">Clear CD Offerings</a>
         </div>
-        <h2>PAYROLL</h2>
+        <h2>CHECKING & SAVINGS & IRA</h2>
         <div className="sidebar__link">
           <i className="fa fa-money"></i>
           <a href="#">Payroll</a>
