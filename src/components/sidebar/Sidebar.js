@@ -22,7 +22,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
           <i className="fa fa-home"></i>
           <a href="#">Dashboard</a>
         </div>
-        <h2>MNG</h2>
+        <h2>USER MANAGEMENT</h2>
         <div className="sidebar__link">
           <i className="fa fa-user-secret" aria-hidden="true"></i>
           <a href="#">Create User</a>
@@ -80,6 +80,18 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <div className="sidebar__link">
           <i className="fa fa-money"></i>
           <a href="#">Delete Checking Account</a>
+        </div>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <a href="#">Delete Savings Account</a>
+        </div>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <a href="#">Delete CD Account</a>
+        </div>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <a href="#">Delete IRA Account</a>
         </div>
         <div className="sidebar__logout">
           <i className="fa fa-power-off"></i>
