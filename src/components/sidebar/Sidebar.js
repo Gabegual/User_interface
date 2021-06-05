@@ -25,40 +25,40 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <h2>MNG</h2>
         <div className="sidebar__link">
           <i className="fa fa-user-secret" aria-hidden="true"></i>
-          <a href="#">User Management</a>
+          <a href="#">Create USer</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-building-o"></i>
-          <a href="#">Company Management</a>
+          <a href="#">Create Account Holder</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-wrench"></i>
-          <a href="#">Employee Management</a>
+          <a href="#">Delete Account Holder</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-archive"></i>
-          <a href="#">Warehouse</a>
+          <a href="#">Show Account Holders</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-handshake-o"></i>
           <a href="#">Contracts</a>
         </div>
-        <h2>LEAVE</h2>
+        <h2>CD ACCOUNTS</h2>
         <div className="sidebar__link">
           <i className="fa fa-question"></i>
-          <a href="#">Requests</a>
+          <a href="#">Add CD Offerings</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-sign-out"></i>
-          <a href="#">Leave Policy</a>
+          <a href="#">Show CD Offerings</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-calendar-check-o"></i>
-          <a href="#">Special Days</a>
+          <a href="#">Get Best CD Offering</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-files-o"></i>
-          <a href="#">Apply for leave</a>
+          <a href="#">Clear CD Offerings</a>
         </div>
         <h2>PAYROLL</h2>
         <div className="sidebar__link">
