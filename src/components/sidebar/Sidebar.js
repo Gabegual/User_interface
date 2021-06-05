@@ -25,7 +25,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <h2>MNG</h2>
         <div className="sidebar__link">
           <i className="fa fa-user-secret" aria-hidden="true"></i>
-          <a href="#">Create USer</a>
+          <a href="#">Create User</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-building-o"></i>
@@ -63,16 +63,30 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <h2>CHECKING & SAVINGS & IRA</h2>
         <div className="sidebar__link">
           <i className="fa fa-money"></i>
-          <a href="#">Payroll</a>
+          <a href="#">Create Savings Account</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-briefcase"></i>
-          <a href="#">Paygrade</a>
+          <a href="#">Create Checking Account</a>
+        </div>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <a href="#">Create CD Account</a>
+        </div>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <a href="#">Create IRA Account</a>
+        </div>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <a href="#">Delete Checking Account</a>
         </div>
         <div className="sidebar__logout">
           <i className="fa fa-power-off"></i>
           <a href="#">Log out</a>
         </div>
+       
+
       </div>
     </div>
   );
